@@ -12,8 +12,8 @@ const message2 = greet2('Vegeta')
 console.log(message, message2)
 
 interface User {
-    uid: string,
-    username: string,
+    uid: string
+    username: string
 }
 
 function getUser(): User {
