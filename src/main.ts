@@ -6,10 +6,14 @@ import './style.css'
 // import './bases/05-functions'
 // import './bases/06-obj-destructuring'
 // import './bases/07-array-destructuring'
-import './bases/08-useState'
+// import './bases/08-useState'
+import './bases/09-imp-exp'
+// import { getHeroesByOwner } from './bases/09-imp-exp'
+// import { Owner } from './data/heroes.data'
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div>
     <h1>Hola Mundo</h1>
   </div>
 `
+// console.log(getHeroesByOwner(Owner.Marvel))
