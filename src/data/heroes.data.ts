@@ -6,8 +6,8 @@ export interface Hero {
 
 // type Owner = 'DC' | 'Marvel'
 export enum Owner {
-  //Obliga a poner Owner.DC u Owner.Marvel
-  DC = 'DC', //en cada uno de los objetos
+  //Obliga a poner Owner.DC u Owner.Marvel en cada uno de los objetos
+  DC = 'DC',
   Marvel = 'Marvel',
 }
 
